@@ -1,0 +1,2 @@
+What happens when you initialise a repository? Why do you need to do it?
+	It is required to create a repository (i.e. a dot git file in your folder) 
