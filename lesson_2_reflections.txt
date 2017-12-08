@@ -1,2 +1,17 @@
 What happens when you initialise a repository? Why do you need to do it?
 	It is required to create a repository (i.e. a dot git file in your folder) 
+	
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+		staging area allows adding files before making a commit
+		
+Command to be used to compare staging area and working directory (note: if you make changes to a file in working directory, it is not updated in the staging area without the add command).
+	git diff
+	
+Command to be used to compare most recent commit and the staging area
+	git diff --staged 
+	
+git reset --hard 
+	discards any changes to either the working directory or the staging area
+	
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+		when you diverge from your master branch (for instance making an experimental version or different language version)
